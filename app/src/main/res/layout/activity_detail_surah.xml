@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailSurah">
+
+<!--    <TextView-->
+<!--        android:id="@+id/name_surah"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:gravity="right"-->
+<!--        android:text=""-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/nama_surah"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="right"-->
+<!--        android:text=""-->
+<!--        android:textSize="15dp"-->
+<!--        android:textStyle="bold|italic" />-->
+
+    <ProgressBar
+        android:id="@+id/myProgressbar"
+        android:gravity="center_vertical"
+        android:indeterminateTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginTop="250dp"
+        android:indeterminateBehavior="cycle"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listayat"
+        android:scrollbars="none"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
